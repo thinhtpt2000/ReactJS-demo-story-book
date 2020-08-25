@@ -1,0 +1,82 @@
+.PostsTool {
+    border-radius: 10px;
+}
+
+.PostsTool .Header {
+    display: flex;
+    align-items: center;
+    padding: 2px 5px;
+    margin: 2px auto;
+    border-bottom: 1.5px solid #eee;
+}
+
+.PostsTool .Header .Title {
+    flex: 1;
+}
+
+.PostsTool .Header .Button {
+    border: 0;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.PostsTool .Header .Button:hover {
+    background-color: #ccc;
+}
+
+.PostsTool .Header .Button:focus {
+    outline: none;    
+}
+
+.PostsTool .Header .Button:active {
+    transform: scale(0.95);
+}
+
+.PostsTool .Header .Button .ButtonIcon {
+    margin: 0 2px;
+}
+
+.PostsTool .Content {
+    display: flex;
+    justify-content: center;
+}
+
+.PostsTool .Content .Button {
+    border: none;
+    display: flex;
+    width: 35%;
+    margin: 0 75px;
+    align-items: center;
+    font-weight: 700;
+    color: #65676B;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.PostsTool .Content .Button:hover {
+    background-color: #eee;
+}
+
+.PostsTool .Content .Button:focus {
+    outline: none;
+}
+
+.PostsTool .Content .Button .ButtonIcon {
+    font-size: 28px;
+    margin: 0 5px;
+}
+
+.PostsTool .Content .ButtonActive {
+    color: #1876F2;
+    border-bottom: 2px solid #1876F2;
+}
+
+.PostsTool .Content .ButtonActive:hover {
+    background-color: #fff;
+}
